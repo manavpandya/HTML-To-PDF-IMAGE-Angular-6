@@ -1,0 +1,263 @@
+<div id="content" #content>
+  <mat-card>
+    <div class="alert alert-info">
+        <strong>Html To PDF Conversion - Angular 6</strong>
+    </div>
+    <div>
+      <input type="button" value="CPTURE" (click)="captureScreen()"/>
+    </div>
+  </mat-card>
+</div>
+<div >
+  <mat-card>
+    <table id="convert" style='width:980px;'>
+      <tr>
+          <td style='padding: 5px 8px 8px;'>
+              <table style='font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding: 5px; width: 960px' cellspacing='0'
+                  cellpadding='2' align='center' border='0'>
+                  <tr>
+                      <td>
+                          <a href='http://www.arsadata.se/sv-se/default/'>
+                              <img src='http://www.arsadata.se/images/admin-logo.png' />
+                          </a>
+                      </td>
+                      <td style='width:300px;'>
+                          <table style="float: right;width:300px; padding: 5px;font-family: Arial,Helvetica,sans-serif; background-color: #da2e2e; font-size:12px; padding-bottom:0px; color:#fff;">
+                              <tr>
+                                  <td colspan="2">
+                                      <b>Fakturanummer: </b> ORD0000-32612</td>
+                              </tr>
+                              <tr>
+                                  <td colspan="2">
+                                      <b>Fakturadatum: </b>2018-05-17</td>
+                              </tr>
+                              <tr>
+                                  <td>Var god tänk på miljön innan
+                                      <br>du skriver ut det här mejlet.</td>
+                                  <td>
+                                      <img src="http://www.arsadata.se/images/small-logo.jpg" style="width:50px;">
+                                  </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+      <tr>
+          <td style='padding: 0px 8px 8px;'>
+              <div style='font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(0, 0, 0);'>
+                  <strong style='margin-left: 15px;'> Hej Testperson-se Approved </strong>,
+                  <br/>
+                  <br/>
+                  <div style='margin: 10px 15px; float: left;'> Tack för din beställning på
+                      <a href='http://www.arsadata.se/' target='_blank'>www.arsadata.se.</a>Detta är ditt kvitto/ garantibevis.
+                      <br />Vi föreslår att du håller denna information på en säker plats för framtida referens.</div>
+                  <br />
+                  <br />
+                  <table width='100%' style='width:100%;' cellspacing='0' cellpadding='2' align='center' border='0'>
+                      <tbody>
+                          <tr style='background-color: #da2e2e; float: left;width:100%;padding-left:5px;'>
+                              <td style='background-color:#da2e2e; padding:5px 0px 5px 0px; float:left; width:99%; margin:5px 0px 5px 5px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: #fff;'>
+                                  <strong>Betalningsinformation</strong>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td bgcolor='#efeeee' style='margin:5px 0;width:100%; float:left;'>
+                                  <table style='width:100%; font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding: 5px;margin:5px;'>
+                                      <tr>
+                                          <td align='left' width='25%'>Beställningsnummer:</td>
+                                          <td align='left' width='75%'>ORD0000-32612</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left'>Transaktions-ID:</td>
+                                          <td align='left'>123456</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left'>Köpebelopp:</td>
+                                          <td align='left'>7580.00</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left'>Meddelande:</td>
+                                          <td align='left'>-</td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <br />
+                  <br />
+                  <table width='100%' cellspacing='0' cellpadding='2' align='center' border='0' style='width:100%;'>
+                      <tbody>
+                          <tr style='background-color: #da2e2e; padding: 5px 0px; padding-left: 5px; float: left;width:100%;'>
+                              <td style='width:50%; float:left;text-align:left;font-family: arial,helvetica,sans-serif; font-size: 12px; color: #fff;margin:5px 0px;'>
+                                  <strong>Kvitto till:</strong>
+                              </td>
+                              <td style=' width:48%; float:left;text-align:left;font-family: arial,helvetica,sans-serif; font-size: 12px; color: #fff;margin:5px 0px;'>
+                                  <strong>Leverera till:</strong>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td bgcolor='#efeeee' style='margin:7px 0;width:100%; float:left;' colspan='2'>
+                                  <table width='100%' style='width:100%; font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding: 10px;margin:5px;'>
+                                      <tr>
+                                          <td align='left' width='20%'>Beställare:</td>
+                                          <td align='left'>Testperson-se Approved</td>
+                                          <td align='left' width='20%'>Mottagare:</td>
+                                          <td align='left'>Testperson-se Approved</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Företagsnamn:</td>
+                                          <td align='left'>Arsa Service</td>
+                                          <td align='left' width='20%'>Företagsnamn:</td>
+                                          <td align='left'>Arsa Service</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Adress:</td>
+                                          <td align='left'>Stårgatan 1 </td>
+                                          <td align='left' width='20%'>Adress:</td>
+                                          <td align='left'>Stårgatan 1 </td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Postnummer:</td>
+                                          <td align='left'>12345</td>
+                                          <td align='left' width='20%'>Postnummer:</td>
+                                          <td align='left'>12345</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Ort:</td>
+                                          <td align='left'>Ankeborg</td>
+                                          <td align='left' width='20%'>Ort:</td>
+                                          <td align='left'>Ankeborg</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Mobilnummer:</td>
+                                          <td align='left'>0798465454</td>
+                                          <td align='left' width='20%'>Mobilnummer:</td>
+                                          <td align='left'>0798465454</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Alt. Telefonnummer:</td>
+                                          <td align='left'>0798465454</td>
+                                          <td align='left' width='20%'>Alt. Telefonnummer:</td>
+                                          <td align='left'>0798465454</td>
+                                      </tr>
+                                      <tr>
+                                          <td align='left' width='20%'>Email:</td>
+                                          <td align='left'>james.smith2013@live.com</td>
+                                          <td align='left' width='20%'>Email:</td>
+                                          <td align='left'>james.smith2013@live.com</td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <br />
+                  <br />
+                  <table width='100%' style='width:100%;' cellspacing='0' cellpadding='2' align='center' border='0'>
+                      <tbody>
+                          <tr style='background-color: #da2e2e; padding: 5px 0px; padding-left: 10px; float: left; width: 100%; color: #fff; font-size: 12px; font-weight:bold;'>
+                              <td style=' width:47%; float:left;margin:5px 0px;'>Produktnamn</td>
+                              <td style=' width:10%; float:left;margin:5px 0px;'>Artikelnummer</td>
+                              <td style=' width:10%; float:left;margin:5px 0px;'>Kategori namn</td>
+                              <td style=' width:10%; float:right;text-align: right;margin:5px 0px;'>Pris (Kr)</td>
+                              <td style=' width:8%; float:right;text-align: right;margin:5px 0px;'>Antal</td>
+                              <td style=' width:10%; float:left;text-align: right;margin:5px 5px 5px 0px;'>Delsumma</td>
+                          </tr>
+                          <tr style='width:100%; float:left;'>
+                              <td bgcolor='#efeeee' style='margin:7px 0;width:100%; float:left;padding-left: 10px;' colspan='6'>
+                                  <table cellspacing='0' width='100%' style='width:100%; font-family: Arial,Helvetica,sans-serif;font-size: 12px;'>
+                                      <tr style='width: 100%; font-size: 12px; color:#000;'>
+                                          <td align='left' style="width:47%;margin:5px 0px;">Kontorsdator Arsa Basic, Intel Pentium G3250, 4GB RAM, 1TB hårddisk, Windows 10</td>
+                                          <td
+                                              align='left' style="width:10%;margin:5px 0px;">Basic2016</td>
+                              <td align='left' style="width:10%;margin:5px 0px;">Stationära datorer</td>
+                              <td align='right' style="width:10%;margin:5px 0px;">3990.00 Kr</td>
+                              <td align='right' style="width:8%;margin:5px 0px;">1</td>
+                              <td align='right' style="width:10%;margin:5px 5px 5px 0px;">3990.00 Kr</td>
+                              </tr>
+                              <tr style='width: 100%; font-size: 12px; color:#000;'>
+                                  <td align='left' style="width:47%;margin:5px 0px;">Asus 27" LED VG278HV 1920x1080, 144hz, 1ms, 1000:1, Speakers, VGA/DVI/HDMI</td>
+                                  <td align='left'
+                                      style="width:10%;margin:5px 0px;">i-858038</td>
+                                  <td align='left' style="width:10%;margin:5px 0px;">23"-27"</td>
+                                  <td align='right' style="width:10%;margin:5px 0px;">3590.00 Kr</td>
+                                  <td align='right' style="width:8%;margin:5px 0px;">1</td>
+                                  <td align='right' style="width:10%;margin:5px 5px 5px 0px;">3590.00 Kr</td>
+                              </tr>
+                              </table>
+          </td>
+          </tr>
+          </tbody>
+          </table>
+          <br/>
+          <br/>
+          <table width='100%' cellspacing='0' cellpadding='2' align='left' border='0' style='width:100%;'>
+              <tbody>
+                  <tr style='background-color: #fff; padding: 5px 0px; padding-left: 10px; float: left; width: 100%; color: #fff; font-size: 12px; font-weight:bold;'>
+                      <td style=' float: left; width: 49%;'>&nbsp;</td>
+                      <td style=' width: 49%; float: right; background: #da2e2e; color:#fff;'>
+                          <table cellspacing='2' width='100%' style='font-family: Arial,Helvetica,sans-serif;font-size: 13px; color:#fff; '>
+                              <tr>
+                                  <td align='left' style="width: 70%; padding-left: 20px; font-weight: bold;">Varav moms:</td>
+                                  <td align='left' style="width: 30%">1516.00 Kr</td>
+                              </tr>
+                              <tr>
+                                  <td align='left' style="padding-left: 20px; font-weight: bold;">Rabatt: </td>
+                                  <td align='left'>0.00 Kr</td>
+                              </tr>
+                              <tr>
+                                  <td align='left' style="padding-left: 20px; font-weight: bold;">Frakt:</td>
+                                  <td align='left'>0.00 Kr</td>
+                              </tr>
+                              <tr>
+                                  <td align='left' style="padding-left: 20px; font-weight: bold;">Total:</td>
+                                  <td align='left' style="font-weight: bold;">7580.00 Kr</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+          </td>
+      </tr>
+      <tr>
+          <td style='font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding: 20px 8px 8px;'></td>
+      </tr>
+      <tr>
+          <td style='padding: 0px;width:100%;'>
+              <table style='background: #efeeee; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; padding: 5px; width: 100%; '
+                  cellspacing='0' cellpadding='2' align='center' border='0'>
+                  <tr>
+                      <td style='width:9%;'></td>
+                      <td style='width:30%;'>
+                          <b>ArsaData AB</b>
+                          <br />&nbsp;</td>
+                      <td style='width:30%;'>
+                          <b>Telefon</b>
+                          <br />021- 13 13 53</td>
+                      <td style='width: 30%;'>
+                          <b>Bankgiro</b>
+                          <br />349-8193</td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>Kranbyggargatan 5
+                          <br />721 34 Västerås</td>
+                      <td>
+                          <b>Org-nr</b>
+                          <br />556919-1058</td>
+                      <td>
+                          <b>V.A.T-nr</b>
+                          <br />SE1655691910582</td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+  </table>
+  </mat-card>
+</div>
+
