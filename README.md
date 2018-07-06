@@ -1,6 +1,10 @@
-# Htmltopdfng6
+# Learn How To Convert HTML To PDF Using Angular 6 By Manav Pandya
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+https://www.c-sharpcorner.com/article/convert-html-to-pdf-using-angular-6/
+
+# Learn From My Other Angular Articles By Selecting Below Link
+
+https://www.c-sharpcorner.com/members/manav-pandya
 
 ## Development server
 
